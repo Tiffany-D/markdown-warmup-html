@@ -8,8 +8,7 @@ h1,h3,h2{
 }
 h3{
     font-weight: lighter;
-    margin-bottom: 100px;
-    margin-right: 20px;
+  text-align: center;
 }
 
 p{
@@ -21,7 +20,7 @@ p{
 img{
     height: 20em;
     border-radius: 50%;
-    margin-left: 500px;
+    margin-left: 520px;
 }
 
 .infos{
