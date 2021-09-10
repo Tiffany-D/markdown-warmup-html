@@ -1,16 +1,51 @@
-h1{
+body{
+    background: linear-gradient(179.4deg, rgb(253, 240, 233) 2.2%, rgb(255, 194, 203) 96.2%);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+h1,h3,h2{
     text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+h3{
+    font-weight: lighter;
+    margin-bottom: 100px;
+    margin-right: 20px;
 }
 
 p{
     text-align: center;
 }
-
+.intro{
+    margin-top: 100px;
+}
 img{
     height: 20em;
+    border-radius: 50%;
+    margin-left: 500px;
 }
 
-.info{
+.infos{
     display: flex;
     justify-content: center;
+    margin: 20px;
+    
+}
+
+th{
+    text-decoration: underline;
+}
+
+td{
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.p1{
+    display: flex;
+    justify-content:space-around;
+}
+
+footer{
+    text-align: center;
+    line-height: 3;
 }
